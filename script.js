@@ -7,6 +7,5 @@ var form = document.getElementById("form1");
 	form.addEventListener("submit",function(e)
     {
         e.preventDefault();
-        console.log("fname",fname.value);
-        console.log(lname.value);
+        alert(fname.value + " "+lname.value);
     });
